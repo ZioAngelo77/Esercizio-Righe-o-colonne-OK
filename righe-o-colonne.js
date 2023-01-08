@@ -28,7 +28,7 @@ let matrice = []
 
 // Creo matrice
 
-for (var i = 0; i < N; i++) {
+for (i = 0; i < N; i++) {
   matrice[i] = []
 }
 
@@ -40,7 +40,7 @@ for (i = 0; i < N; i++) { /* righe */
   for (j = 0; j < M; j++) { /* colonne */
 
 
-    matrice[i][j] = Math.floor(Math.random() * 100)
+    matrice[i][j] = Math.floor(Math.random() * 100 + 1)
     mat = matrice
 
   }
@@ -64,7 +64,7 @@ for (i = 0; i < N; i++) {
 
 }
 
-console.log("array R =", R) 
+console.log("array R =", R)
 
 
 
